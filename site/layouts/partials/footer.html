@@ -50,4 +50,23 @@
 
 {{ partial "svg" . }}
 
+<script>
+$(document).ready(function(){
+  $('.nav-button').click(function(){
+	$('body').toggleClass('nav-open');
+
+	var opened = $('navbar').hasClass('fixed-top');
+	if (opened === true) {
+      $('.navbar').removeClass('fixed-top');
+    }
+  });
+});</script>
+
 <script src="/app.js"></script>
+
+<script>
+$(window).scroll(function(){
+	$('.navbar').toggleClass('custom-nav', $(this).scrollTop() > 50);
+});
+</script>
+

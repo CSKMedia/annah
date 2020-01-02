@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="{{ $.Site.Language.Lang }}">
   {{ partial "head" . }}
-  <body class="sans-serif">
+   {{ block "header" . }}{{ partial "nav" . }}{{end}}
 
-    {{ block "header" . }}{{ partial "nav" . }}{{end}}
+  <body class="sans-serif" data-spy="scroll" data-target=".navbar" data-offset="15">
 
     {{ block "main" . }}{{ end }}
 
