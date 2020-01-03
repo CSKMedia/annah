@@ -14,8 +14,7 @@ products:
   - image: img/leader.jpg
     text: >-
       Duis vitae mauris nulla. Sed viverra sem non velit scelerisque
-      condimentum. Vivamus dapibus turpis sit amet libero imperdiet tempus.
-      Donec et nunc mollis, pharetra purus non, facilisis libero.
+      condimentum. Vivamus dapibus turpis sit amet libero imperdiet tempus. 
   - image: /img/success.jpg
     text: >-
       Praesent vestibulum ultricies ullamcorper. Vestibulum malesuada mauris
