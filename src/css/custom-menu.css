@@ -48,6 +48,8 @@
   .nav-button::before {
    display:none;
   }
+
+  p {font-size: 0.8em !important ;}
  }
 
 
@@ -81,6 +83,28 @@
   opacity: .90;
 }
 
+.overlay-yellow::before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #f0ce41;
+  opacity: .30;
+}
+
+.overlay-30::before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #5a1d57;
+  opacity: .30;
+}
+
 .centered {
   position: absolute;
   top: 50%;
@@ -109,4 +133,15 @@
 
 .heading-sub {
   font-size:1.5em;
+}
+
+.heading-style {
+  font-size: 1.2rem;
+  color: #f0ce41;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+a:hover {
+  color: var(--yellow);
 }

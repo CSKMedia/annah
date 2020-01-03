@@ -22,6 +22,6 @@ products:
 values:
     heading: Rubrik
     image: /img/face.jpg
-    text: Duis vitae mauris nulla. Sed viverra sem non velit scelerisque condimentum. Vivamus dapibus turpis sit amet libero imperdiet tempus. Donec et nunc mollis, pharetra purus non, facilisis libero.
+    text: Duis vitae mauris nulla. Sed viverra sem non velit scelerisque condimentum. Vivamus dapibus turpis sit amet libero imperdiet tempus. Donec et nunc mollis, pharetra purus non, facilisis libero. Vivamus vel quam velit. Curabitur nunc lorem, feugiat et diam et, feugiat rhoncus arcu. Duis porta felis vitae auctor tempor. Nam consectetur pharetra dignissim. Nunc molestie libero ut pulvinar pulvinar. Integer sed tellus mollis, sollicitudin mauris quis, ornare felis.
 ---
 

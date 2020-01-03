@@ -40,6 +40,10 @@
   color: var(--black);
 }
 
+.yellow {
+  color: var(--yellow)
+}
+
 .bg-primary {
   background-color: var(--primary) !important;
 }
@@ -77,6 +81,11 @@
 }
 
 .bg-orange { background-color:var(--orange)}
+
+.bg-yellow {
+  background-color: var(--yellow)
+}
+
 
 .bg-fix-primary {
   padding: 0 var(--spacing-small);
