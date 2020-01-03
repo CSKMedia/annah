@@ -6,3 +6,10 @@ img {
 img:not(.w-100) {
   border-radius: var(--border-radius);
 }
+
+img.container_img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0;
+}

@@ -1,4 +1,4 @@
-<div class="bg-off-white pv4">
+<!--<div class="bg-off-white pv4">
   <div class="ph3 mw7 center">
     <h2 class="f2 b lh-title mb2">{{.intro.heading}}</h2>
     <p class="mb4 mw6">{{.intro.text}}</p>
@@ -13,7 +13,35 @@
     </div>
 
     <div class="tc">
-      <a href="/products" class="btn raise">See all products</a>
+      <a href="/products" class="btn raise">Se alla tjänster</a>
+    </div>
+  </div>
+</div>-->
+
+
+<div class="bg-off-white container-fluid p-0">
+  <div class="row justify-content-center align-items-center">
+    <!--
+    <div class="col-12"
+      <h2 class="lh-title mb2">{{.intro.heading}}</h2>
+      <p class="">{{.intro.text}}</p>
+    </div>
+    -->
+      {{ range .products }}
+      <div class="col-12 col-md-6 p-0 container_img">
+          <span class="centered text-white">
+            <h2>{{.heading}}</h2>
+            <p>{{.text }}</p>
+            <a href="{{ .link }}" class="btn raise">Läs mer</a>
+          </span>
+          <div class="overlay">
+            <img src="{{.image}}" alt="" class="container_img">
+          </div>
+      </div>
+      {{ end }}
+
+    <div class="col-12 py-4 text-center">
+      <a href="/products" class="btn raise">Se alla tjänster</a>
     </div>
   </div>
 </div>

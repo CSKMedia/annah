@@ -16,6 +16,10 @@
   color: var(--off-white);
 }
 
+.orange {
+  color: var(--orange)
+}
+
 .grey-1 {
   color: var(--grey-1);
 }
@@ -37,7 +41,7 @@
 }
 
 .bg-primary {
-  background-color: var(--primary);
+  background-color: var(--primary) !important;
 }
 
 .bg-highlight {
@@ -71,6 +75,8 @@
 .bg-black {
   background-color: var(--black);
 }
+
+.bg-orange { background-color:var(--orange)}
 
 .bg-fix-primary {
   padding: 0 var(--spacing-small);
